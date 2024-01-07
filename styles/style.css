@@ -61,7 +61,7 @@ nav a {
 /* header related styles */
 .header {
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png') url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -192,5 +192,10 @@ margin-right: 25px;
         border-radius: 5px;
         border: 0;
 
+    }
+    .input-title {
+        width: 177px;
+        padding: 18px 35px;
+        border: 0;
     }
     
